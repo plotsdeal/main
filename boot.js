@@ -95,7 +95,7 @@ var request;
                   
                   if(response == 1) {
                           $.notify("Property Aded in Compare List !", "success");
-                          $('#container_compare').append('<div class="utf-listing-item compact compare-pl" id="mycid'+ pro_id +'"> <a href="#" class="utf-smt-listing-img-container"><div class="utf-remove-compare-item remove-atem removecomp" data-id="' + pro_id + '"><i class="icon-line-awesome-close"></i></div><div class="utf-listing-img-content-item"><span class="utf-listing-compact-title-item">' + pro_title + '<i>' + pro_price + '</i></span></div><img src="' + pro_image + '" alt=""></a></div>');
+                          $('#container_compare').append('<div class="utf-listing-item compact compare-pl" id="mycid'+ pro_id +'"> <a href="#" class="utf-smt-listing-img-container"><div class="utf-remove-compare-item remove-atem removecomp" data-id="' + pro_id + '"><i class="icon-line-awesome-close"></i></div><div class="utf-listing-img-content-item"><span class="utf-listing-compact-title-item" style="bottom: 0px !important;">' + pro_title + '<i>' + pro_price + '</i></span></div><img src="' + pro_image + '" alt=""></a></div>');
                   }
                   
                   if(response == 2) {
